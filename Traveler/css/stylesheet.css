@@ -211,7 +211,7 @@ header #branding h1{
   padding-top:20px;
   padding-bottom:20px;
   letter-spacing:1px;
-
+  color:#333333;
 }
 
 /*tours*/
@@ -296,11 +296,13 @@ header #branding h1{
 #bookTour #bookTourRight #btrContainer{
   width: 50%;
   margin:auto;
+  color:#666464;
 }
 
 #bookTour #bookTourRight #btrContainer h1{
   transform: uppercase;
   letter-spacing: 2px;
+  color:#333333;
 }
 
 #bookTour #bookTourRight #btrContainer #explore{
