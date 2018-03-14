@@ -1,0 +1,409 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+  line-height:1.5;
+  margin:0;
+  padding:0;
+}
+
+/*Global*/
+.container{
+  width:95%;
+  margin:auto;
+  overflow:hidden;
+}
+
+
+h1 {
+  font-size:50px;
+  letter-spacing:2px;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border: solid 4px white;
+  padding: 15px 32px;
+  font-size: 16px;
+  text-align:center;
+  text-decoration:none;
+}
+
+button:hover{
+  background-color: white;
+  color:#333333;
+  cursor: pointer;
+}
+/*showCase*/
+
+#showCase{
+  min-height:1050px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image:url('../imgs/camping.png');
+}
+
+/*Header*/
+
+
+header{
+  padding-top:0px;
+  min-height:50px;
+  border-bottom: white 1px solid;
+  color: white;
+
+}
+header ul{
+  padding:0;
+  margin: 15px 0 15px;
+}
+
+header li{
+  display:inline;
+  float:right;
+  padding:0 20px 0 20px;
+  margin:0;
+}
+
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+header a:hover{
+  color: gray;
+  cursor: pointer;
+}
+
+
+
+header #branding{
+  float:left;
+  padding:0;
+  margin:10px 0 10px 0;
+  letter-spacing: 3px;
+
+}
+
+header #branding h1{
+  padding:0;
+  margin:0;
+  font-size: 25px;
+  text-transform: uppercase;
+
+}
+
+/*spotLight*/
+#spotLight {
+  margin: 170px 0 0 378px;
+  color: white;
+  width: 40%;
+}
+
+#spotLight {
+  padding-top: 165px;
+}
+
+#spotLight h1{
+  font-size:90px;
+  margin:0;
+  font-style: italic;
+}
+
+/*sellingPoint*/
+#sellingPoint{
+  min-height: 350px;
+  text-align: center;
+  width:100%;
+}
+
+#sellingPoint #spContainer{
+  width: 60%;
+  margin:100px auto auto auto;
+  overflow:hidden;
+}
+
+#sellingPoint #spContainer h1{
+  font-size: 40px;
+  color:#333333;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+#sellingPoint #spContainer p{
+  font-size: 20px;
+  color:#666464;
+  line-height: 28px;
+}
+
+/*socialMedia*/
+
+#socialMedia {
+  min-height: 250px;
+  width:100%;
+  background-color:#f7f7f7;
+}
+
+#socialMedia #smContainer{
+  width: 60%;
+  margin: 100px auto auto auto;
+  padding-bottom: 50px;
+  overflow:hidden;
+  text-align:center;
+}
+
+#socialMedia #smContainer #smLeft{
+  padding-top:0;
+  margin: 40px 10px auto 50px;
+  display:inline-block;
+  float: left;
+  width:30%;
+  text-align:center;
+}
+
+#socialMedia #smContainer #smLeft h1{
+  font-size: 40px;
+  letter-spacing: 3px;
+  color: #333333;
+}
+
+#socialMedia #smContainer #smLeft h3{
+  margin-top:0;
+  padding-top:0;
+  font-size:13px;
+  color:#333333;
+}
+
+#socialMedia #smContainer #smLeft p{
+  margin-top:0;
+  padding-top:0;
+  color:#666464;
+  font-size: 20px;
+}
+
+#socialMedia #smContainer #smRight{
+  width: 60%;
+  display:inline-block;
+  margin: 80px auto auto 10px;
+  float: right;
+  padding-top:0;
+}
+
+#socialMedia #smContainer #smRight img{
+  display:inline-block;
+  margin-right: 20px;
+}
+#socialMedia #smContainer #smRight img:hover{
+  opacity:.6;
+  cursor:pointer;
+}
+
+/*toursHeadLine*/
+#toursHeadLine{
+  min-height: 20px;
+}
+
+#toursHeadLine h3{
+  text-align: center;
+  padding-top:20px;
+  padding-bottom:20px;
+  letter-spacing:1px;
+
+}
+
+/*tours*/
+#tourOne{
+  min-height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-image:url('../imgs/japan_4.jpg');
+  opacity: .9;
+}
+
+#tourOne .tourContainer{
+  text-align: center;
+  margin:0;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: white;
+
+}
+
+#tourTwo{
+  min-height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image:url('../imgs/jamaica.jpg');
+  opacity: .9;
+}
+
+#tourTwo .tourContainer{
+  text-align: center;
+  margin:0;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: white;
+}
+
+#tourThree{
+  min-height: 350px;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image:url('../imgs/colombia_3.jpg');
+  opacity: .9;
+}
+
+#tourThree .tourContainer{
+  text-align: center;
+  margin:0;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: white;
+}
+
+/*bookTour*/
+#bookTour {
+  min-height: 500px;
+  overflow:hidden;
+}
+
+#bookTour #btImage{
+  min-height:620px;
+  display:inline-block;
+  float:left;
+  width:50%;
+  background-image: url("../imgs/book.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#bookTour #bookTourRight {
+  text-align: center;
+  float:right;
+  width:50%;
+  display:inline-block;
+}
+
+#bookTour #bookTourRight #btrContainer{
+  width: 50%;
+  margin:auto;
+}
+
+#bookTour #bookTourRight #btrContainer h1{
+  transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#bookTour #bookTourRight #btrContainer #explore{
+  background-color: #333333;
+  color: white;
+  border: solid 4px #333333;
+  padding: 17px 55px;
+  font-size: 16px;
+  text-align:center;
+  text-decoration:none;
+  margin-top: 60px;
+}
+
+#bookTour #bookTourRight #btrContainer #explore:hover{
+  background-color:#444444;
+}
+
+/*Newsletter*/
+
+#newsLetter{
+  min-height: 550px;
+  width:100%;
+  background-color: #91a05c;
+}
+
+#newsLetter #nlContainer{
+  padding-top:130px;
+  padding-bottom:20px;
+  width: 50%;
+  margin:auto;
+  text-align: center;
+  color: white;
+}
+#newsLetter #nlContainer button {
+  background-color: white;
+  color:#91a05c;
+  padding: 8px 55px;
+  margin-top:2px;
+  border: solid 4px white;
+}
+#newsLetter #nlContainer input[type=text]{
+  padding: 13px 55px;
+  border: solid 2px white;
+  color:white;
+  background-color:#91a05c;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+::placeholder{
+  color:white;
+  font-size: 17px;
+}
+
+/*Footer*/
+
+footer{
+  width: 100%;
+  min-height:100px;
+  background-color: #333333;
+  padding-bottom:70px;
+}
+
+footer #branding {
+  float:left;
+  margin:auto;
+  letter-spacing: 3px;
+  width: 33%;
+}
+footer #branding h1{
+  font-size: 25px;
+  text-transform: uppercase;
+  color: white;
+  display: inline;
+}
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media(max-width:768px) {
+ header ul,  header li, header #branding, #socialMedia #smContainer #smLeft,   #socialMedia #smContainer #smRight,
+ #bookTour img, #bookTour #bookTourRight, #bookTour #btImage{
+    float:none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header{
+    padding-bottom: 20px;
+  }
+  #spotLight{
+    margin-left:0;
+    width: 50%;
+  }
+  #spotLight h1{
+    font-size: 50px;
+  }
+  #showCase{
+    background-position: 65% 50%;
+  }
+}
