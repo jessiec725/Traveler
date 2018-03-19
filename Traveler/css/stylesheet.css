@@ -18,6 +18,9 @@ h1 {
   font-size:50px;
   letter-spacing:2px;
 }
+h4 {
+  letter-spacing:.5px;
+}
 
 button {
   background-color: transparent;
